@@ -30,8 +30,8 @@
                         {{-- @include('components.mb-menu') --}}
                         <div class="logo">
                             <a href="{{route('frontend.home')}}">
-                                <img src="/backend/img/logo.png" class="logow logo-one" alt="logo" />
-                                <img src="/backend/img/logo.png" class="logow logo-two" alt="logo" />
+                                <img src="/images/LUX-DENT-AGENGY.png" class="logow logo-one" alt="logo" />
+                                <img src="/images/LUX-DENT-AGENGY.png" class="logow logo-two" alt="logo" />
                             </a>
                         </div>
                     </div>
@@ -41,14 +41,6 @@
             <div class="desktop-nav nav-area">
                 <div class="container-fluid">
                     <nav class="navbar navbar-expand-md navbar-light">
-                        <div class="nav-widget-form">
-                            <form class="search-form">
-                                <input type="search" class="form-control" placeholder="Search modules" />
-                                <button type="submit">
-                                    <i class="ri-search-line"></i>
-                                </button>
-                            </form>
-                        </div>
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
@@ -56,24 +48,27 @@
                                 </li>
                                 
                                 <li class="nav-item">
-                                    <a href="{{route('frontend.syllabus')}}" class="nav-link">The course</a>
+                                    <a href="#" class="nav-link">Locum dental service</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="{{route('frontend.application')}}" class="nav-link">Application</a>
+                                    <a href="#" class="nav-link">Lux dent institute</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Job</a>
+                                    <a href="#" class="nav-link">Lux dent IT</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="{{route('frontend.support')}}" class="nav-link">Support</a>
+                                    <a href="#" class="nav-link">Lux dent Accounting</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="{{route('frontend.contact')}}" class="nav-link">Contact us</a>
+                                    <a href="#" class="nav-link">Reviews</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Contact us</a>
                                 </li>
                             </ul>
                             <div class="others-options d-flex align-items-center">
                                 <div class="optional-item">
-                                    <a href="{{route('login')}}" class="default-btn border-radius-50 two">My Account</a>
+                                    <a href="#" class="default-btn border-radius-50 two">Login CMS</a>
                                 </div>
                             </div>
                         </div>
@@ -111,12 +106,12 @@
         </div>
         <div class="banner-area tcenter tsm0">
             <a class="navbar-brand" href="{{route('frontend.home')}}">
-                <img src="/backend/img/logo.png" class="g7d logo-one" alt="Logo" />
+                <img src="/images/LUX-DENT-AGENGY.png" class="g7d logo-one" alt="Logo" />
             </a>
         </div>
         @yield('content')
 
-        <div class="footer-contact-area">
+        {{-- <div class="footer-contact-area">
             <div class="container">
                 <div class="row tcenter">
                     <div class="col-lg-12 col-md-12">
@@ -134,8 +129,86 @@
                     </div>
                 </div>
             </div>
-        </div>
-
+        </div> --}}
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>ABOUT US</h4>
+                        <img src="/images/LUX-DENT-AGENGY.png" alt="Logo" class="img-fluid">
+                        <p style="width: 83%;">
+                            Lux Dent Agency Limited assists dental practices and hospital dental departments in 
+                            filling temporary and permanent vacancies for dental nurses and other care professionals. 
+                            Lux Dent Agency Limited is registered in England.
+                        </p>
+                        {{-- <div class="social-icons">
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com/people/Luxdentagency-uk/100063746281354/">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div> --}}
+                    </div>
+                    <div class="col-md-4">
+                        <h4>INFORMATION</h4>
+                        <br>
+                        <ul class="ft0p">
+                            <li>
+                                <a href="https://test.luxdentagency.co.uk/locum-dental-services">Services</a>
+                            </li>
+                            <li>
+                                <a href="https://luxdentinstitute.co.uk" target="_blank">Institute</a>
+                            </li>
+                            <li>
+                                <a href="https://test.luxdentagency.co.uk/it-services">Lux Dent IT</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://app.luxdentagency.co.uk">Login</a>
+                            </li>
+                            <li>
+                                <a href="#">Terms &amp; Conditions</a>
+                            </li>
+                            <li>
+                                <a href="#">Privacy Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>STRUCTURE OFFICE</h4>
+                        <br>
+                        <ul class="ft0p">
+                            <li>
+                                <span><i class="feather-mail"></i></span> <span>info@luxdentagency.co.uk</span>
+                            </li>
+                            <li>
+                                <span><i class="feather-phone"></i></span> <span>074 9071 4868</span>
+                            </li>
+                            <li>
+                                <span><i class="feather-map-pin"></i></span> <span>A: 61 Griffiths Road, Wimbledon, London, SW19 1ST</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </footer>
         <footer class="footer-area">
             <div class="copyright-area">
                 <div class="container">

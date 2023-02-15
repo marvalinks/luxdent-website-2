@@ -122,16 +122,16 @@
 
 .jmb img {
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     object-fit: cover;
     filter: brightness(0.4);
 }
 
 .hk {
     position: absolute;
-    top: 75%;
-    left: 35%;
-    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 10%;
+    /* transform: translate(-50%, -50%); */
     color: #fff;
     font-family: "Roboto", sans-serif;
 
@@ -146,10 +146,11 @@
     text-align: center;
 }
 .g7d {
-    height: 185px;
+    height: 140px;
+    padding: 15px;
 }
 .desktop-nav .navbar .navbar-nav .nav-item a {
-    font-size: 23px;
+    font-size: 18px;
 }
 .desktop-nav {
     /* background: #08ad8c; */
@@ -173,12 +174,17 @@
     padding-bottom: 0px;
 }
 .gtbox {
-    width: 80%;
+    width: 100%;
+}
+.bl09 {
+    background: -webkit-linear-gradient(#f9df7b, #b57e0f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .gtbox h1,
 .gtbox h2 {
     color: white;
-    font-size: 41px;
+    font-size: 65px;
 }
 .gtbox p {
     color: white;
@@ -268,11 +274,68 @@
 } */
 .m78m {
     margin-top: 80px;
+    align-items: unset !important;
 }
 .banner-area {
     background-color: #000000 !important;
 }
-
+.footer {
+    padding: 60px 0 0;
+    text-align: left !important;
+    background: black;
+}
+.footer h4 {
+    color: #ffbc34 !important;
+}
+.footer img {
+    width: 125px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer p {
+    color: #fff;
+    width: 83%;
+}
+.ft0p a {
+    color: #fff;
+}
+.ft0p li {
+    margin-bottom: 14px;
+    color: #fff;
+}
+.footer .social-icons ul {
+    justify-content: left;
+}
+.footer .social-icons ul {
+    list-style: none;
+    padding: 0px;
+    margin: 35px 0px;
+    display: flex;
+    justify-content: center;
+}
+.footer .social-icons ul li a {
+    padding: 5px;
+}
+.footer .social-icons ul li a i {
+    background-color: #ff9600;
+    width: 50px;
+    height: 50px;
+    padding: 16px;
+    border-radius: 12px 0px 12px 0px;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.4s;
+}
+.footer .social-icons ul li a i {
+    background: linear-gradient(
+        to right,
+        #ffbc34,
+        #e3c058,
+        #eeb33b,
+        #e3c058,
+        #ffc03f
+    ) !important;
+}
 @media only screen and (max-width: 767px) {
     .tsm0 {
         padding-top: 0px;
