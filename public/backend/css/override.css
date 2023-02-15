@@ -343,18 +343,21 @@
     }
     .hk {
         width: 100%;
-        left: 52%;
-        top: 72%;
+        left: 0%;
+        top: 25%;
     }
     .gtbox {
         width: 100%;
     }
     .gtbox h1,
     .gtbox h2 {
-        font-size: 31px;
+        font-size: 38px;
     }
     .jmb img {
         width: 100vw;
-        height: 537px;
+        height: 400px;
+    }
+    .g78g h3 {
+        font-size: 23px;
     }
 }
