@@ -46,7 +46,7 @@
     font-weight: 600;
 }
 
-* {
+* :not(i) {
     font-family: SegoeUI !important;
 }
 
@@ -335,6 +335,10 @@
         #e3c058,
         #ffc03f
     ) !important;
+}
+
+.inner-banner-bg {
+    background-image: url("../../images/slider1.jpg");
 }
 @media only screen and (max-width: 767px) {
     .tsm0 {

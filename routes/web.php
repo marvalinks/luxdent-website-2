@@ -34,10 +34,10 @@ Route::group(['middleware' => ['guest'], 'prefix' => '', 'as' => 'frontend.'], f
     Route::get('home', [FrontendController::class, 'home'])->name('home');
     // Route::get('about', [FrontendController::class, 'about'])->name('about');
     Route::get('course', [FrontendController::class, 'course'])->name('course');
-    Route::get('syllabus', [FrontendController::class, 'syllabus'])->name('syllabus');
+    Route::get('accounting', [FrontendController::class, 'accounting'])->name('accounting');
     Route::get('contact', [FrontendController::class, 'contact'])->name('contact');
-    Route::get('application', [FrontendController::class, 'application'])->name('application');
-    Route::get('support', [FrontendController::class, 'support'])->name('support');
+    Route::get('services', [FrontendController::class, 'services'])->name('services');
+    Route::get('it-services', [FrontendController::class, 'it'])->name('it');
 });
 Route::group(['middleware' => ['auth'], 'prefix' => 'student', 'as' => 'student.'], function () {
     Route::get('dashboard', [StudentModuleController::class, 'dashboard'])->name('dashboard');

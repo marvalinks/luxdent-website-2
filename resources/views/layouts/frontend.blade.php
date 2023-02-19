@@ -15,6 +15,8 @@
         <link rel="stylesheet" href="/frontend/assets/css/responsive.scss" />
 
         <link rel="stylesheet" href="/frontend/assets/css/theme-dark.css" />
+        <link rel="stylesheet" href="/assets/fontawesome/css/fontawesome.min.css" />
+        <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css" />
 
         <title>{{env('APP_NAME')}}</title>
 
@@ -48,27 +50,24 @@
                                 </li>
                                 
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Locum dental service</a>
+                                    <a href="{{route('frontend.services')}}" class="nav-link">Locum dental service</a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">Lux dent institute</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Lux dent IT</a>
+                                    <a href="{{route('frontend.it')}}" class="nav-link">Lux dent IT</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Lux dent Accounting</a>
+                                    <a href="{{route('frontend.accounting')}}" class="nav-link">Lux dent Accounting</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Reviews</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Contact us</a>
+                                    <a href="{{route('frontend.contact')}}" class="nav-link">Contact us</a>
                                 </li>
                             </ul>
                             <div class="others-options d-flex align-items-center">
                                 <div class="optional-item">
-                                    <a href="#" class="default-btn border-radius-50 two">Login CMS</a>
+                                    <a target="_blank" href="https://app.luxdentagency.co.uk" class="default-btn border-radius-50 two">Login CMS</a>
                                 </div>
                             </div>
                         </div>
@@ -171,13 +170,13 @@
                         <br>
                         <ul class="ft0p">
                             <li>
-                                <a href="https://test.luxdentagency.co.uk/locum-dental-services">Services</a>
+                                <a href={{route('frontend.services')}}">Services</a>
                             </li>
                             <li>
                                 <a href="https://luxdentinstitute.co.uk" target="_blank">Institute</a>
                             </li>
                             <li>
-                                <a href="https://test.luxdentagency.co.uk/it-services">Lux Dent IT</a>
+                                <a href="{{route('frontend.it')}}">Lux Dent IT</a>
                             </li>
                             <li>
                                 <a target="_blank" href="https://app.luxdentagency.co.uk">Login</a>
@@ -204,6 +203,30 @@
                                 <span><i class="feather-map-pin"></i></span> <span>A: 61 Griffiths Road, Wimbledon, London, SW19 1ST</span>
                             </li>
                         </ul>
+                        <div class="social-icons">
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com/people/Luxdentagency-uk/100063746281354/">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 

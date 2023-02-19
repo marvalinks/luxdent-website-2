@@ -32,7 +32,7 @@
                 <div class="contact-info-card">
                     <i class="ri-mail-fill"></i>
                     <h3>Email us</h3>
-                    <p><a href="mailto:info@luxdentinstitute.co.uk">info@luxdentinstitute.co.uk</a></p>
+                    <p><a href="mailto:info@luxdentagency.co.uk">info@luxdentagency.co.uk</a></p>
                 </div>
             </div>
             <div class="col-lg-4 col-6">
