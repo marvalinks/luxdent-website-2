@@ -38,6 +38,8 @@ Route::group(['middleware' => ['guest'], 'prefix' => '', 'as' => 'frontend.'], f
     Route::get('contact', [FrontendController::class, 'contact'])->name('contact');
     Route::get('services', [FrontendController::class, 'services'])->name('services');
     Route::get('it-services', [FrontendController::class, 'it'])->name('it');
+    Route::post('send-mail', [FrontendController::class, 'sendMail'])->name('send.mail');
+    Route::post('send-contact', [FrontendController::class, 'sendContact'])->name('send.contact');
 });
 Route::group(['middleware' => ['auth'], 'prefix' => 'student', 'as' => 'student.'], function () {
     Route::get('dashboard', [StudentModuleController::class, 'dashboard'])->name('dashboard');

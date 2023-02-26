@@ -75,7 +75,7 @@
 
 
 <div class="banner-area jmb">
-    <img src="/images/00.jpg" alt="">
+    <img src="/images/05.jpg" alt="">
     <div class="row hk">
         <div class="gtbox">
             <h1 class="">

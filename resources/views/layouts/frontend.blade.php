@@ -53,7 +53,7 @@
                                     <a href="{{route('frontend.services')}}" class="nav-link">Locum dental service</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Lux dent institute</a>
+                                    <a href="https://luxdentinstitute.co.uk" target="_blank" class="nav-link">Lux dent institute</a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="{{route('frontend.it')}}" class="nav-link">Lux dent IT</a>
@@ -206,7 +206,7 @@
                         <div class="social-icons">
                             <ul>
                                 <li>
-                                    <a href="https://www.facebook.com/people/Luxdentagency-uk/100063746281354/">
+                                    <a target="_blank" href="https://facebook.com/people/Luxdentagency-uk/100063746281354/">
                                         <i class="fab fa-facebook-f"></i>
                                     </a>
                                 </li>
@@ -221,7 +221,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a target="_blank" href="https://linkedin.com/in/lux-dent-agency-limited-83567059">
                                         <i class="fab fa-linkedin"></i>
                                     </a>
                                 </li>

@@ -53,7 +53,8 @@
             <h2>Ready to get started?</h2>
         </div>
         <div class="contact-form">
-            <form id="contactForm" novalidate="true">
+            <form id="" novalidate="true" action="{{route('frontend.send.contact')}}" method="POST">
+                @csrf
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="form-group">
@@ -69,13 +70,13 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="form-group">
-                            <input type="text" name="phone_number" id="phone_number" required="" data-error="Please Enter Your number" class="form-control" placeholder="Phone Number" />
+                            <input type="text" name="phone" id="phone_number" required="" data-error="Please Enter Your number" class="form-control" placeholder="Phone Number" />
                             <div class="help-block with-errors"></div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="form-group">
-                            <input type="text" name="msg_subject" id="msg_subject" class="form-control" required="" data-error="Please Enter Your Subject" placeholder="Your Subject" />
+                            <input type="text" name="subject" id="msg_subject" class="form-control" required="" data-error="Please Enter Your Subject" placeholder="Your Subject" />
                             <div class="help-block with-errors"></div>
                         </div>
                     </div>
@@ -83,12 +84,6 @@
                         <div class="form-group">
                             <textarea name="message" class="form-control" id="message" cols="30" rows="7" required="" data-error="Write your message" placeholder="Your Message"></textarea>
                             <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-12">
-                        <div class="agree-label">
-                            <input type="checkbox" id="chb1" />
-                            <label for="chb1"> Accept <a href="terms-condition.html">Terms &amp; Conditions</a> And <a href="privacy-policy.html">Privacy Policy.</a> </label>
                         </div>
                     </div>
                     <div class="col-lg-12 col-md-12">
